@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "861709231245",
+    "project_id": "tindercomic",
+    "storage_bucket": "tindercomic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861709231245:android:8ceab2e13f8009a2f6eec4",
+        "android_client_info": {
+          "package_name": "com.example.entthenbookapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrmakGTrdwN3_0VCGnkHl30UFk0zLRjc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
