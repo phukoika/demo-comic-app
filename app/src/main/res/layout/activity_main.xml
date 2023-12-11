@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start">
+    tools:openDrawer="end">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -16,7 +16,16 @@
             android:background="#363F44"
             android:layout_width="match_parent"
             android:layout_height="80dp">
+        <ImageButton
+            android:contentDescription="Open menu"
+            android:id="@+id/btnMenu"
+            android:background="#00000000"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_menu"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
         <EditText
+            android:id="@+id/txtSearch"
             android:hint="Search here"
             android:textSize="20sp"
             android:textColor="@color/white"
@@ -29,13 +38,19 @@
             android:background="@drawable/bordersearch"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
+            <ImageView
+                android:src="@drawable/logo"
+                android:layout_alignParentEnd="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
         </RelativeLayout>
+        <GridView
+            android:id="@+id/listComic"
+            android:numColumns="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></GridView>
     </LinearLayout>
-    <GridView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-    </GridView>
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
